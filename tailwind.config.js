@@ -4,9 +4,9 @@ module.exports = {
     extend: {
       colors: {
         'body-dark': '#1C1C1C',
-        'primary-green':'#62DB54',
-        'primary-blue':'#09ACF5',
-        'gray-dark':'#2D2D2D',
+        'primary-green': '#62DB54',
+        'primary-blue': '#09ACF5',
+        'gray-dark': '#2D2D2D',
         'c-gray': {
           DEFAULT: '#C1C1C1',
           900: '#2D2D2D',
@@ -24,7 +24,11 @@ module.exports = {
         lg: '12px',
       },
     },
+    fontFamily: {
+      'azeret': ['Azeret Mono'],
+    },
     screens: {
+      // 'ssm': '414px',
       'sm': '640px', // => @media (min-width: 640px) { ... }
       'md': '768px', // => @media (min-width: 768px) { ... }
       'lg': '1024px', // => @media (min-width: 1024px) { ... }

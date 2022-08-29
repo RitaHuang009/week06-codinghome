@@ -40,9 +40,7 @@
     background-size: cover;
 }
 
-.article-card:hover .article-hover{
-    display: block;
-}
+
 
 .swiper-button-next:after, 
 .swiper-rtl .swiper-button-prev:after,
@@ -51,26 +49,18 @@
     content:"";
 }
 
-.swiper-button-next, .swiper-button-prev{
-    top: 98%;
-}
+
 
 .swiper-button-next, 
 .swiper-button-prev{
     color: #62db54;
 }
 
-.swiper-button-prev, .swiper-rtl .swiper-button-next{
-    left: 40%;
-}
-
-.swiper-button-next, .swiper-rtl .wiper-button-prev{
-    right: 40%;
-}
 
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
-    bottom: 0;
+    bottom: -32px;
 }
+
 .swiper-pagination-bullet-active{
     background:#62db54;
     width: 16px;
@@ -81,6 +71,14 @@
     background:#62db54;
     opacity: 1;
 }
+
+@media (min-width: 1024px){
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+        bottom: -9px;
+    }
+}
+
+
 @media (min-width: 640px){
     .banner-index{
         background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week6-202207/bg_home.jpg?raw=true") center center no-repeat;
